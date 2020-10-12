@@ -23,4 +23,5 @@ while(True):
   cv2.circle(image, (mid_height,mid_width), 15, (b,g,r),thickness=3, lineType=8)
   cv2.imshow('Camera',image)#Display the image
 #When everything done, release the capture
-cap.release()cv2.destroyAllWindows()
+cap.release()
+cv2.destroyAllWindows()
